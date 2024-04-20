@@ -1,0 +1,51 @@
+.main {
+  padding: 5rem;
+}
+
+.container-game {
+  max-width: 100rem;
+  margin-left: auto;
+  margin-right: auto;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 5rem;
+}
+
+th {
+  font-weight: 500;
+}
+
+th,
+td {
+  font-size: 1rem;
+  padding: 0.5rem;
+}
+
+.scoreable {
+  cursor: pointer;
+}
+
+.pointer {
+  cursor: pointer;
+}
+
+.scored {
+  background-color: var(--color-page-dark);
+  color: var(--color-label);
+  font-weight: 600;
+}
+
+.scorecard-table {
+  max-width: 30rem;
+}
+
+.table-plays th {
+  font-weight: 700;
+  font-size: 1.3rem;
+}
+
+@keyframes rolling {
+  50% {
+    transform: rotateX(455deg) rotateY(455deg);
+  }
+}

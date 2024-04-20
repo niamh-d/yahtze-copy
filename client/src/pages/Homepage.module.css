@@ -1,0 +1,38 @@
+.homepage {
+  height: 97vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.homepage__content {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.heading-box {
+  margin-bottom: 3rem;
+}
+
+.heading {
+  font-size: 7rem;
+  font-style: italic;
+  letter-spacing: 3px;
+}
+
+.tag-line {
+  font-size: 1rem;
+  margin-left: 2rem;
+}
+
+.cta-text {
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+}
+
+.button-box {
+  display: flex;
+  gap: 1.5rem;
+}
